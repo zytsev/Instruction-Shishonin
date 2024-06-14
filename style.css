@@ -1,0 +1,165 @@
+/* inter-regular - cyrillic_latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/inter-v13-cyrillic_latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-700 - cyrillic_latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/inter-v13-cyrillic_latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.container {
+    width: min(100%, 25rem);
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+}
+
+li div {
+    height: 40rem;
+    border: 2px solid rgb(83, 72, 60);
+    border-radius: 0.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+button {
+    cursor: pointer;
+    background-color: burlywood;
+}
+
+.image1 {
+    background-image: url(./img/mobile/Стр\ опл\ 1\ -\ моб.PNG);
+}
+
+.image2 {
+    background-image: url(./img/mobile/Стр\ оплаты\ 2\ моб\ отм.png);
+}
+
+.image3 {
+    background-image: url(./img/mobile/Юкаса\ 1\ моб\ отм\ сберпэй.png);
+}
+
+.image4 {
+    background-image: url(./img/mobile/Юкаса\ 1\ моб\ отм\ карта.png);
+}
+
+.image5 {
+    background-image: url(./img/mobile/юкасса\ финал\ моб\ отм.png);
+}
+
+.image6 {
+    background-image: url(./img/mobile/успешная\ оплата\ моб.PNG);
+}
+
+/* старт оплата через SBERPay */
+.image7 {
+    background-image: url(./img/mobile/Юкаса\ 1\ моб\ отм\ сберпэй.png);
+}
+
+.image8 {
+    background-image: url(./img/mobile/Юмани\ куаркод\ -\ моб\ отм.png);
+}
+
+.image9 {
+    background-image: url(./img/mobile/Юмани\ сберпей\ 2\ моб\ отм\ .png);
+}
+
+.image10 {
+    background-image: url(./img/mobile/После\ пуша\ юмани\ моб.PNG);
+}
+
+.image11 {
+    background-image: url(./img/mobile/start\ page.jpg);
+}
+
+.image12 {
+    background-image: url(./img/mobile/history.jpg);
+}
+
+.image13 {
+    background-image: url(./img/mobile/pay.jpg);
+}
+
+.image14 {
+    background-image: url(./img/mobile/to\ pay.jpg);
+}
+
+.image15 {
+    background-image: url(./img/mobile/успешная\ оплата\ моб.PNG);
+}
+
+@media (min-width: 31rem) {
+    li div {
+        width: 100%;
+
+    }
+
+    .container {
+        width: min(100%, 70rem);
+    }
+
+    .image1 {
+        background-image: url(./img/Страница\ оплаты\ 1\ верх.PNG);
+    }
+
+    .image2 {
+        background-image: url(./img/Стр\ оплаты\ 2\ отм.png);
+    }
+
+    .image3 {
+        background-image: url(./img/Юкасса\ 1\ отм\ на\ сберпей.png);
+    }
+
+    .image4 {
+        background-image: url(./img/Юкасса\ 1\ отм.png);
+    }
+
+    .image5 {
+        background-image: url(./img/Юкасса\ финал\ карта\ отм.png);
+    }
+
+    .image6,
+    .image15 {
+        background-image: url(./img/успешная\ оплата.PNG);
+    }
+
+    .image7 {
+        background-image: url(./img/Юкасса\ 1\ отм\ на\ сберпей.png);
+    }
+
+    .image8 {
+        background-image: url(./img/Юкасса\ -\ сберпей\ -\ куаркод\ отм.png);
+    }
+
+    .image9 {
+        background-image: url(./img/Юмани\ сберпей\ 2\ отм.png);
+    }
+
+    .image10 {
+        background-image: url(./img/Юмани\ сберпей\ после\ ввода\ номера\ тел\ отм.png);
+    }
+
+}
